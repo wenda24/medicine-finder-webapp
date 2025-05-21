@@ -1,0 +1,130 @@
+[19-May-2025 04:47:07 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\MFWA\config.php on line 11
+[19-May-2025 04:47:07 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\MFWA\config.php on line 12
+[19-May-2025 04:47:07 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\MFWA\config.php on line 13
+[19-May-2025 04:47:07 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MFWA\config.php on line 14
+[19-May-2025 04:47:07 Europe/Berlin] PHP Warning:  require(C:\xampp\htdocs\MFWA/classes/Database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\MFWA\config.php on line 18
+[19-May-2025 04:47:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\MFWA/classes/Database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\MFWA\config.php:18
+Stack trace:
+#0 C:\xampp\htdocs\MFWA\config.php(28): {closure}('Database')
+#1 C:\xampp\htdocs\MFWA\registration.php(13): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\MFWA\config.php on line 18
+[19-May-2025 05:16:21 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:08:12 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:08:19 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:26:28 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:27:55 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:31:01 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:32:32 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:32:33 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'registered_at' in 'field list'
+[19-May-2025 06:32:38 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:32:39 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'registered_at' in 'field list'
+[19-May-2025 06:47:11 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 06:52:47 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 07:01:37 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 07:45:07 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 07:48:17 Europe/Berlin] PHP Warning:  Undefined variable $host in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:12:02 Europe/Berlin] PHP Warning:  Undefined variable $dbname in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:12:02 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:12:02 Europe/Berlin] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:12:02 Europe/Berlin] Database Error: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+[19-May-2025 08:13:46 Europe/Berlin] PHP Warning:  Undefined variable $dbname in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:46 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:46 Europe/Berlin] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:46 Europe/Berlin] Database Error: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+[19-May-2025 08:13:48 Europe/Berlin] PHP Warning:  Undefined variable $dbname in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:48 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:48 Europe/Berlin] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:48 Europe/Berlin] Database Error: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+[19-May-2025 08:13:57 Europe/Berlin] PHP Warning:  Undefined variable $dbname in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:57 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:57 Europe/Berlin] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 08:13:57 Europe/Berlin] Database Error: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+[19-May-2025 18:27:13 Europe/Berlin] PHP Warning:  Undefined variable $dbname in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 18:27:13 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 18:27:13 Europe/Berlin] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\MFWA\registration.php on line 25
+[19-May-2025 18:27:13 Europe/Berlin] Database Error: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+[19-May-2025 19:40:06 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:40:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:40:10 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:40:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:40:36 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:40:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:52:20 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:52:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:52:33 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:52:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:53:34 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:53:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:53:38 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:53:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:53:47 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:53:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:53:50 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 19:53:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:02:57 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:02:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:03:21 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:03:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:06:11 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:06:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:06:14 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:06:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:06:29 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:06:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\MFWA\registration.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 15
+[19-May-2025 20:50:14 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'registered_at' in 'field list'
+[19-May-2025 20:59:58 Europe/Berlin] Application Error: Security validation failed
+[19-May-2025 21:06:27 Europe/Berlin] Application Error: Security validation failed
+[19-May-2025 21:07:26 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'registered_at' in 'field list'
+[20-May-2025 00:10:51 Europe/Berlin] PHP Warning:  Undefined variable $stmt in C:\xampp\htdocs\MFWA\registration.php on line 43
+[20-May-2025 00:10:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in C:\xampp\htdocs\MFWA\registration.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 43
+[20-May-2025 00:10:56 Europe/Berlin] PHP Warning:  Undefined variable $stmt in C:\xampp\htdocs\MFWA\registration.php on line 43
+[20-May-2025 00:10:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in C:\xampp\htdocs\MFWA\registration.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\MFWA\registration.php on line 43
