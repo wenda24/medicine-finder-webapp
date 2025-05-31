@@ -72,7 +72,7 @@ $success = '';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MedFinder Admin Login</title>
+    <title>MedFinder/መድሃኒት አፋላጊ Admin Login</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -80,7 +80,7 @@ $success = '';
             background-image: url("admin.jpg");
         }
         .card-glow {
-            box-shadow: 0 0 40px rgba(6, 135, 53, 0.1);
+            box-shadow: 0 0 40px rgba(35, 38, 39, 0.1);
         }
     </style>
 </head>
@@ -101,14 +101,14 @@ $success = '';
         <!-- Login Card -->
         <div class="bg-white/95 backdrop-blur-sm rounded-xl card-glow border-2 border-[#078735]/20 w-full max-w-md">
             <!-- Card Header -->
-            <div class="bg-[#f8fafb] px-8 py-6 rounded-t-xl border-b border-[#078735]/10">
+            <div class="bg-[#f8faf] px-8 py-6 rounded-t-xl border-b border-[#078735]/10">
                 <div class="flex items-center justify-center space-x-4">
                     <div class="p-3 bg-[#078735] rounded-lg">
                         <i class="fas fa-shield-alt text-2xl text-white"></i>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold text-gray-800">
-                            <span class="text-[#078735]">MedFinder</span> Admin
+                            <span class="text-[#078735]">MedFinder/መድሃኒት አፋላጊ</span> Admin
                         </h1>
                         <p class="text-sm text-gray-600">Secure MedFinder Portal</p>
                     </div>
